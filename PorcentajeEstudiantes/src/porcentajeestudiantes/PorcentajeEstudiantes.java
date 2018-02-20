@@ -22,6 +22,8 @@ public class PorcentajeEstudiantes {
         
         porcentaje = (menores*100)/estudiantes;
         
+        System.out.println("El numero total es de " + estudiantes + " estudiantes.");
+        System.out.println("El numero total de menores de edad es: " + menores + " estudiantes.");
         System.out.println("El Porcentaje de estudiantes en el curso Programacion II es: " + porcentaje + "%");
     }
     
